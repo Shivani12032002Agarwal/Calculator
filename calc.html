@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calci">
+    <h2>Calculate Me!</h2>
+    <div class="row">
+    <input type="text" class="input"/>
+    <button class="button" onclick="clear()">C</button>
+    </div>
+    <div class="row">
+        <button class="button" onclick="calculate('7')">7</button>
+        <button class="button" onclick="calculate('8')" >8</button>
+        <button class="button" onclick="calculate('9')">9</button>
+        <button class="button" onclick="calculate('/')">/</button>
+    </div>
+    <div class="row">
+         <button class="button" onclick="calculate('4')">4</button>
+         <button class="button" onclick="calculate('5')">5</button>
+         <button class="button" onclick="calculate('6')">6</button>
+         <button class="button" onclick="calculate('*')">*</button>
+    </div>
+    <div class="row">
+          <button class="button" onclick="calculate('1')">1</button>
+          <button class="button" onclick="calculate('2')">2</button>
+          <button class="button" onclick="calculate('3')">3</button>
+          <button class="button" onclick="calculate('+')">+</button>
+    </div>
+    <div class="row">
+           <button class="button" onclick="calculate('.')">.</button>
+           <button class="button" onclick="calculate('0')">0</button>
+           <button class="button" onclick="equal()">=</button>
+           <button class="button" onclick="calculate('-')">-</button>
+    </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
